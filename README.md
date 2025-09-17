@@ -11,6 +11,10 @@ This project is a comprehensive implementation of a 5-stage pipelined CPU based 
 * **Stalling for Load-Use Hazards:** A **Hazard Detection Unit** is implemented to handle the specific case of a load-use data hazard (`lw` followed immediately by an instruction that uses the loaded value). It stalls the pipeline for one clock cycle to ensure data correctness.
 
 ---
+## Architecture Diagram
+![Architecture Diagram](./architecture.png "Architecture Diagram")
+
+---
 
 ## Module Descriptions
 
