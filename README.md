@@ -12,12 +12,6 @@ This project is a comprehensive implementation of a 5-stage pipelined CPU based 
 
 ---
 
-## Architecture Diagram
-
-The diagram below illustrates the overall 5-stage pipeline architecture, including the main components, pipeline registers, and the paths for the forwarding unit.
-
----
-
 ## Module Descriptions
 
 The project is organized into the following modular Verilog files:
